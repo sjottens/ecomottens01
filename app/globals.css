@@ -1,0 +1,41 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main: #ffae00;
+  --boxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.1s ease-in;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+*::selection {
+  background: var(--main);
+}
+
+body {
+  background: #121517;
+  color: #fff;
+}
+
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #121517;
+}
