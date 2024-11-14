@@ -1,8 +1,20 @@
 .Btn {
 	width: max-content;
 	padding: 8px 18px;
-	border-radius: 999px;
-	background: var(--main);
-	color: #fff;
 	font-weight: 700;
+	position: relative;
+	color: #999;
+	font-size: 0.9em;
+	font-weight: 700;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	background: rgb(1, 61, 151);
+	transition: 0.1s;
+}
+.Btn:hover {
+	color: var(--main);
+	text-shadow: 0 0 15px var(--main),
+	0 0 40px var(--main);
 }

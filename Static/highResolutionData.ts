@@ -5,6 +5,7 @@ export const HighResolutionGamesData = [
 			GameImg: "/assets/highGame1.jpg",
 			GameRating: "4.8",
 			GameResolution: "4K Ultra HD",
+			GameUrl: "http://www.vml.com",
 	},
 	{
 			id: 2,
@@ -12,6 +13,7 @@ export const HighResolutionGamesData = [
 			GameImg: "/assets/highGame2.jpg",
 			GameRating: "4.7",
 			GameResolution: "1440p High",
+			GameUrl: "http://www.surfweer.nl",
 	},
 	{
 			id: 3,
@@ -19,6 +21,7 @@ export const HighResolutionGamesData = [
 			GameImg: "/assets/highGame3.jpg",
 			GameRating: "4.9",
 			GameResolution: "4K Ultra HD",
+			GameUrl: "http://www.vml.com",
 	},
 	{
 			id: 4,
@@ -26,5 +29,6 @@ export const HighResolutionGamesData = [
 			GameImg: "/assets/highGame4.jpg",
 			GameRating: "4.6",
 			GameResolution: "1080p Ultra",
+			GameUrl: "http://www.vml.com",
 	}
 ];

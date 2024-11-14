@@ -24,7 +24,7 @@ const NavLink:NavLinkProps[] = [
 		LinkText: "About",
 		LinkTo: "1"
 	},{
-		LinkText: "Games",
+		LinkText: "Start",
 		LinkTo: "2"
 	},{
 		LinkText: "Team",
@@ -43,13 +43,14 @@ const Navbar = () => {
 		setIsOpen(!isOpen)
 	}
 
+
 	return (
 		<nav className={styles.Navbar}>
 			<div className={styles.NavLinks}>
 				{
 					NavLink.map((I) => (
-						<div key={I.LinkText}>
-							<Link href={I.LinkTo}>{I.LinkText}</Link>
+						<div key={I.LinkText} className={styles.NavbarDiv}>
+							<Link href={I.LinkTo}><span>{I.LinkText}</span></Link>
 						</div>
 					))
 				}

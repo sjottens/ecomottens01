@@ -26,14 +26,23 @@
 }
 
 .NavLinks a {
-	color: #fff;
+	position: relative;
+	color: #999;
+	font-size: 0.9em;
 	font-weight: 700;
 	padding: 8px 16px;
-	border-radius: 999px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	background: rgb(45,45,45,1);
+	transition: 0.1s;
 }
 
 .NavLinks a:hover {
-	background: var(--main);
+	color: var(--main);
+	text-shadow: 0 0 15px var(--main),
+	0 0 40px var(--main);
 }
 
 
