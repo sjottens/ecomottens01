@@ -14,9 +14,10 @@ const Features = () => {
 				FeaturesData.map((I) => (
 					<FeatureBox 
 						key={I.id}
-						Icon={I.FeatureIcon}
+						FeatureImg={I.FeatureImg}
 						FeatureDesc={I.FeatureDesc}
 						FeatureName={I.FeatureName}
+						FeatureUrl={I.FeatureUrl}
 					/>
 
 				))

@@ -1,11 +1,11 @@
 export const HighResolutionGamesData = [
 	{
 			id: 1,
-			GameName: "Battlefield Fury",
-			GameImg: "/assets/highGame1.jpg",
+			GameName: "CashPages",
+			GameImg: "/assets/cashPages01.png",
 			GameRating: "4.8",
 			GameResolution: "4K Ultra HD",
-			GameUrl: "http://www.vml.com",
+			GameUrl: "https://copecart.com/us/products/dcd58986/p/rvottens",
 	},
 	{
 			id: 2,

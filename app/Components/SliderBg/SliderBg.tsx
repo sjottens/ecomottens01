@@ -9,9 +9,7 @@ import { GrFormNextLink } from "react-icons/gr";
 const SliderBg = () => {
 
 	const Images = [
-		'./assets/About.jpg',
-		'./assets/mainBg1.jpg',
-		'./assets/mainBg2.jpg'
+		'./assets/video-2.mp4'
 	]
 
 	const[curentImageIndex, setCurrentImageIndex] = useState(0);
@@ -40,20 +38,21 @@ const SliderBg = () => {
 		<div className={styles.Slider}>
 			<div>
 				<div>
-					<img src={Images[curentImageIndex]} alt="Background Image"/>
+					<video autoPlay muted loop src={Images[curentImageIndex]} />
 				</div>
 				<div className={styles.Overlay}></div>
 			</div>
 			<div className={styles.Content}>
-				<h6>EcomOttens</h6>
-				<h5>Where Excitement Meets Adventure</h5>
+				<h1>Affiliate marketing</h1>
+				<h5>Join the Adventure Start Your Online Business Today!</h5>
 			</div>
 
-			{/* Slider controls */}	
+			{/* Slider controls 
 			<div className={styles.Controls}>
 				<button onClick={prevImg} className={styles.PrevButton}><GrFormPreviousLink /></button>
 				<button onClick={nextImg} className={styles.NextButton}><GrFormNextLink /></button>
-			</div>		
+			</div>
+			*/}			
 		</div>
 	)
 }

@@ -3,30 +3,34 @@ import styles from './Feature.module.css'
 
 
 interface FeatureBoxProps {
-	Icon: string,
 	FeatureName: string,
 	FeatureDesc: string,
+	FeatureUrl: string,
+	FeatureImg: string,
 }
 
 const FeatureBox = (
 	{
-		Icon,
 		FeatureName,
-		FeatureDesc
+		FeatureDesc,
+		FeatureUrl,
+		FeatureImg
 	}:FeatureBoxProps
 ) => {
 	return (
-		<div className={styles.Main}>
-			<div className={styles.Box}>
-				<p className={styles.Icon}>
-					{Icon}
-				</p>
-				<h6>{FeatureName}</h6>
-				<p className={styles.Desc}>
-					{FeatureDesc}
-				</p>
+		<a href={FeatureUrl} target='blank' className={styles.Main}>
+			<div>
+				<div className={styles.Box}>
+					<div className={styles.ImageBox}>
+						<img src={FeatureImg} alt={FeatureName} />
+					</div>
+					<h6>{FeatureName}</h6>
+					<p className={styles.Desc}>
+						{FeatureDesc}
+					</p>
+				</div>
 			</div>
-		</div>
+		</a>
 	)
 }
 

@@ -21,17 +21,17 @@ const NavLink:NavLinkProps[] = [
 		LinkText: "Home",
 		LinkTo: "/"
 	},{
-		LinkText: "About",
-		LinkTo: "1"
+		LinkText: "Affiliate",
+		LinkTo: "/pages/affiliate"
 	},{
-		LinkText: "Start",
-		LinkTo: "2"
+		LinkText: "Sport",
+		LinkTo: "/pages/sport"
 	},{
 		LinkText: "Team",
 		LinkTo: "3"
 	},{
 		LinkText: "Contact",
-		LinkTo: "4"
+		LinkTo: "/pages/contact"
 	},
 ]
 
@@ -62,13 +62,6 @@ const Navbar = () => {
 				</Link>
 			</div>
 
-			<div className={styles.BtnBox}>
-				<Button 
-					LinkText='Login Now'
-					LinkTo=''
-				/>
-			</div>
-
 		
 			<HiBars3BottomRight 
 				className={styles.MenuIcon}
@@ -95,10 +88,7 @@ const Navbar = () => {
 							</div>
 						))
 					}
-					<Button 
-						LinkText='Login Now'
-						LinkTo=''
-					/>
+				
 				</div>
 			</div>
 		</nav>

@@ -2,8 +2,8 @@
 	position: relative;
 }
 
-.Slider img {
-	height: 90vh;
+.Slider video {
+	height: 20vh;
 	width: 100%;
 	object-fit: cover;
 }
@@ -86,8 +86,8 @@
 @media(max-width:900px) {
 
 
-	.Slider img {
-			height: 70vh;
+	.Slider video {
+			height: 20vh;
 			width: 100%;
 	}
 
@@ -104,8 +104,8 @@
 
 @media(max-width:471px) {
 
-	.Slider img {
-			height: 60vh;
+	.Slider video {
+			height: 20vh;
 			width: 100%;
 	}
 
