@@ -3,7 +3,7 @@
 }
 
 .Slider video {
-	height: 20vh;
+	height: 40vh;
 	width: 100%;
 	object-fit: cover;
 }
@@ -84,13 +84,6 @@
 }
 
 @media(max-width:900px) {
-
-
-	.Slider video {
-			height: 20vh;
-			width: 100%;
-	}
-
 	.Content h6 {
 			font-weight: 800;
 			font-size: 16px;
@@ -103,13 +96,6 @@
 }
 
 @media(max-width:471px) {
-
-	.Slider video {
-			height: 20vh;
-			width: 100%;
-	}
-
-
 	.Content h6 {
 			font-weight: 800;
 			font-size: 16px;
