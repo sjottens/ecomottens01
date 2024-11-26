@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --main: #ffae00;
+  --main: hwb(0 92% 8%);
   --boxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	--text: #FFF;
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-  background: #121517;
+  background: #b9b9b9;
   color: #fff;
 }
 

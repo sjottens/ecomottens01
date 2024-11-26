@@ -2,7 +2,7 @@ export const FeaturesData = [
 	{
 			id: 1,
 			FeatureName: "CashPages",
-			FeatureDesc: "Join CashPages And Build Your Faceless AI Instagram Page.  With Over 52+ Lessons, We are Going To Teach You How To Build, Monetize and Automate Your Own Branded Page.",
+			FeatureDesc: "Join CashPages And Build Your Faceless AI Instagram Page.  and make $800,- + a day!",
 			FeatureIcon: "$",
 			FeatureImg: "/assets/cashPages01.png",
 			FeatureUrl: "https://copecart.com/us/products/edd66763/p/rvottens"
@@ -18,7 +18,7 @@ export const FeaturesData = [
 	{
 			id: 3,
 			FeatureName: "FD Net Marketing",
-			FeatureDesc: "We show our students how they can get FREE traffic to any offer in any niche while building their following on various platforms. It costs only $2 to get started.",
+			FeatureDesc: "We show our students how they can get FREE traffic to any offer in any niche while building their following on various platforms.",
 			FeatureIcon: "💫",
 			FeatureImg: "/assets/FD-NetMarketing.png",
 			FeatureUrl: "https://639ab5ne0mxrsgz5pdoqq2brey.hop.clickbank.net"
