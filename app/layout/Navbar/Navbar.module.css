@@ -26,7 +26,7 @@
 
 .NavLinks a {
 	position: relative;
-	color: #999;
+	color: var(--white);
 	font-size: 0.9em;
 	font-weight: 700;
 	padding: 8px 16px;
@@ -34,7 +34,7 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.1em;
-	background: rgb(45,45,45,1);
+	background: var(--mainColor);
 	transition: 0.1s;
 }
 
@@ -59,7 +59,7 @@
 	height: 100%;
 	width: 300px;
 	z-index: 1000;
-	background: rgba(0, 0, 0, 0.4);
+	background: var(--mainColor);
 	transition: right 0.3s ease-in-out;
 	display: flex;
 	justify-content: flex-end;

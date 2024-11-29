@@ -29,10 +29,10 @@
 
 a .Content {
 	position: absolute;
-	bottom: -81px;
 	padding: 20px;
 	width: 100%;
-	background: #1d1c1c;
+	height: 200px;
+	background: var(--mainColor);
 }
 
 .HighResolution:hover a .Content {

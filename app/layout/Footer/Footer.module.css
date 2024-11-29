@@ -1,5 +1,5 @@
 .Footer {
-	background: #000;
+	background: var(--mainColor);
 	padding-inline: 200px;
 	padding-block: 40px;
 }
@@ -16,6 +16,7 @@
 	object-fit: contain;
 	margin-top: 20px;
 	background: var(--white);
+	border-radius: 10px;
 }
 
 .Footer div {
