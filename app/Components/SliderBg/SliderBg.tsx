@@ -44,7 +44,7 @@ const SliderBg = () => {
 			</div>
 			<div className={styles.Content}>
 				<h1>Affiliate marketing</h1>
-				<h5>Join the Adventure Start Your Online Business Today!</h5>
+				<h5>Transforming Clicks into Customers!</h5>
 			</div>
 
 			{/* Slider controls 

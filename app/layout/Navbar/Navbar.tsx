@@ -21,15 +21,16 @@ const NavLink:NavLinkProps[] = [
 		LinkText: "Home",
 		LinkTo: "/"
 	},{
-		LinkText: "Affiliate",
+		LinkText: "Affiliates",
 		LinkTo: "/pages/affiliate"
-	},{
-		LinkText: "Sport",
-		LinkTo: "/pages/sport"
+	},/*{ 
+		LinkText: "Products",
+		LinkTo: "/pages/products"
+		
 	},{
 		LinkText: "Team",
 		LinkTo: "3"
-	},{
+	}*/,{
 		LinkText: "Contact",
 		LinkTo: "/pages/contact"
 	},
@@ -58,7 +59,7 @@ const Navbar = () => {
 
 			<div>
 				<Link href={"/"}>
-					<img src='./assets/ecomLogo06.png' alt="Logo" />
+					<img src='./assets/EcomOttens_logo.png' alt="Logo" />
 				</Link>
 			</div>
 
@@ -77,7 +78,7 @@ const Navbar = () => {
 
 				<div>
 					<Link href={"/"}>
-						<img src='./assets/ecomLogo06.png' alt="Logo" />
+						<img src='./assets/EcomOttens_logo.png' alt="Logo" />
 					</Link>
 				</div>
 

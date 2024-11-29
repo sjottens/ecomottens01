@@ -1,5 +1,5 @@
 
-import styles from './sport.module.css';
+import styles from './products.module.css';
 
 
 export default function Sport() {

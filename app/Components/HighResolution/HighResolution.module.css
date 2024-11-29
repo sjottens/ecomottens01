@@ -6,17 +6,19 @@
 
 .HighResolution {
 	flex-basis: calc(25% - 10px);
-	height: 400px;
-	box-shadow: 10px 10px 10px -10px var(--main);
+	height: 212px;
+	box-shadow: 10px 10px 10px -10px var(--black);
 	overflow: hidden;
 	position: relative;
 	border-radius: 10px;
+	border: 1px solid var(--black);
 }
 
 .HighResolution a img {
-	height: 420px;
+	height: 95px;
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
+	padding: 10px;
 }
 
 .HighResolution:hover {
@@ -27,7 +29,7 @@
 
 a .Content {
 	position: absolute;
-	bottom: -100px;
+	bottom: -81px;
 	padding: 20px;
 	width: 100%;
 	background: #1d1c1c;

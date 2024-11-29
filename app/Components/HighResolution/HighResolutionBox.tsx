@@ -3,35 +3,36 @@ import styles from './HighResolution.module.css'
 
 interface Props {
 	ImgUrl: string,
+	AffName: string,
+	AffDesc: string;
 	ImgAlt?: string,
-	GameNAme: string,
-	GameRating: string,
-	GameResoltion: string,
-	GameUrl: string,
+	Url: string,
 }
 
 const HighResolutionBox = (
 	{
 		ImgUrl,
+		AffName,
+		AffDesc,
 		ImgAlt,
-		GameNAme,
-		GameRating,
-		GameResoltion,
-		GameUrl,	
+		Url,	
 	}:Props
 ) => {
 	return (
 		<div className={styles.HighResolution}>
 				<div>
-					<a href={GameUrl} target="_blank">
+					<a href={Url} target="_blank">
 					<div>
 						<img src={ImgUrl} alt={ImgAlt} />
 					</div>
 					<div className={styles.Content}>
-						<h6>{GameNAme}</h6>
+						<h6>
+							{AffName}
+						</h6>
 						<div>
-							<p>Rating: {GameRating}</p>
-							<p>Resolution: {GameResoltion}</p>
+							<p>
+								{AffDesc}
+							</p>
 						</div>
 					</div>
 					</a>

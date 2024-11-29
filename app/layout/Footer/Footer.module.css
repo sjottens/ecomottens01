@@ -11,11 +11,11 @@
 }
 
 .Footer div img {
-	height: 150px;
-	width: 150px;
-	object-fit: cover;
-	border-radius: 999px;
+	height: 80px;
+	width: 100px;
+	object-fit: contain;
 	margin-top: 20px;
+	background: var(--white);
 }
 
 .Footer div {

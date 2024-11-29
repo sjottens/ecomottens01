@@ -1,12 +1,16 @@
 .Content {
-	text-align: center;
-	margin-block: 10px;
+	text-align: left;
+	margin: 10px 0 40px 0;
 }
 
 .Content h6 {
 	font-weight: 800;
 	font-size: 50px;
-	color: var(--main);
+	color: var(--black);
+}
+.Content p {
+	color: var(--black);
+	margin: 0 0 10px 0;
 }
 
 @media (max-width: 1200px) {

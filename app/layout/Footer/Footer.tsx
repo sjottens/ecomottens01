@@ -55,7 +55,7 @@ const Footer = () => {
 		<footer className={styles.Footer}>
 			<div className={styles.FooterRow}>
 				<div>
-					<img src='/assets/ecomLogo06.png' alt='Logo' />
+					<img src='/assets/EcomOttens_logo.png' alt='Logo' />
 				</div>
 
 				<div>
@@ -90,7 +90,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className={styles.FooterRow1}>
-				<p>Copyright © 2024. All Rights Reserved</p>
+				<p>EcomOttens © 2024. let's make 2025 better</p>
 			</div>
 		</footer>
 	)
