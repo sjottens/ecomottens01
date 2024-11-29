@@ -30,7 +30,7 @@ const NavLink:NavLinkProps[] = [
 	},{
 		LinkText: "Team",
 		LinkTo: "3"
-	}*/,{
+	}*/{
 		LinkText: "Contact",
 		LinkTo: "/pages/contact"
 	},
