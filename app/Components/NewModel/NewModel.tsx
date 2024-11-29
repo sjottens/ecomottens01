@@ -7,9 +7,7 @@ import Content from '../Content/Content'
 const NewModel = () => {
 	return (
 		<>
-		<Content 
-			h6Text='Our new Model'
-		/>
+		<Content />
 
 		<div className={styles.NewModel}>
 			<img src='/assets/NewModel.jpg' alt='New Model' />
