@@ -11,7 +11,7 @@ export default function Sport() {
 
 			<div className={styles.Content}>
 			<h6>Join The Community</h6>
-				<h5>Sport / Health / Fitnes</h5>
+				<h5>Products</h5>
 				<p>
 					Become a part of an ever-growing community of passionate gamers. Connect, compete, and collaborate with players from around the world. Together, we&apos;re shaping the future of gaming!
 				</p>

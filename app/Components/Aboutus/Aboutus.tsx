@@ -2,10 +2,6 @@ import React from 'react'
 import styles from './Aboutus.module.css'
 
 const Aboutus = () => {
-
-
-
-	
 	return (
 		<div className={styles.Aboutus}>
 			<div>
@@ -43,6 +39,3 @@ const Aboutus = () => {
 }
 
 export default Aboutus
-
-
-//Continue from 59:39 on you tube https://www.youtube.com/watch?v=hQLqfylu2fU

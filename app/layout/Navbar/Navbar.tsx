@@ -23,14 +23,7 @@ const NavLink:NavLinkProps[] = [
 	},{
 		LinkText: "Affiliates",
 		LinkTo: "/pages/affiliate"
-	},/*{ 
-		LinkText: "Products",
-		LinkTo: "/pages/products"
-		
 	},{
-		LinkText: "Team",
-		LinkTo: "3"
-	}*/{
 		LinkText: "Contact",
 		LinkTo: "/pages/contact"
 	},
