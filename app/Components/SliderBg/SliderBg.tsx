@@ -38,7 +38,7 @@ const SliderBg = () => {
 		<div className={styles.Slider}>
 			<div>
 				<div className={styles.bannerImage}>
-					<img src='./assets/internetMarketing01.png' alt='./assets/internetMarketing01.png' />
+					<img src='./assets/internetMarketing01.png' alt='Banner Image' />
 				</div>
 				<div className={styles.Overlay}></div>
 			</div>

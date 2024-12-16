@@ -11,10 +11,6 @@ export const metadata: Metadata = {
     'Affiliate Marketing Community for making a online cashflow',
 };
 
-const Images = [
-	'/assets/internetMarketing01.png'
-]
-
 export default function Affiliate() {
 
 	
@@ -22,13 +18,13 @@ export default function Affiliate() {
 	return (
 		<>
 			<div className={styles.bannerImage}>
-				<img src={Images} alt={Images} />
+				<img src='/assets/internetMarketing01.png' alt='Banner Image' />
 			</div>
 			<Wrapper>
 				<div className={styles.container}>
 					<div className={styles.Affiliate}>
 						<div>
-							<img src="/assets/cashpages-logo.png" alt='' />
+							<img src="/assets/cashpages-logo.png" alt='CashPages Logo' />
 						</div>
 
 						<div className={styles.Content}>
