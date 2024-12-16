@@ -11,9 +11,6 @@ const SliderBg = () => {
 	const ImagesVideo = [
 		'./assets/video-2.mp4'
 	]
-	const Images = [
-		'./assets/internetMarketing01.png'
-	]
 
 	const[curentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -41,7 +38,7 @@ const SliderBg = () => {
 		<div className={styles.Slider}>
 			<div>
 				<div className={styles.bannerImage}>
-					<img src={Images} alt={Images} />
+					<img src='./assets/internetMarketing01.png' alt='./assets/internetMarketing01.png' />
 				</div>
 				<div className={styles.Overlay}></div>
 			</div>
