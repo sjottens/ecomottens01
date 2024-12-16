@@ -41,7 +41,6 @@ const SliderBg = () => {
 		<div className={styles.Slider}>
 			<div>
 				<div className={styles.bannerImage}>
-					{/*<video autoPlay muted loop src={ImagesVideo[curentImageIndex]} />*/}
 					<img src={Images} alt={Images} />
 				</div>
 				<div className={styles.Overlay}></div>
