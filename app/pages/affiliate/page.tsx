@@ -11,9 +11,19 @@ export const metadata: Metadata = {
     'Affiliate Marketing Community for making a online cashflow',
 };
 
+const Images = [
+	'/assets/internetMarketing01.png'
+]
+
 export default function Affiliate() {
+
+	
+
 	return (
 		<>
+			<div className={styles.bannerImage}>
+				<img src={Images} alt={Images} />
+			</div>
 			<Wrapper>
 				<div className={styles.container}>
 					<div className={styles.Affiliate}>

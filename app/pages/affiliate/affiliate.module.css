@@ -7,6 +7,15 @@
 	color: gold;
 	margin-top: 10px;
 }
+
+.bannerImage {
+	max-height: 400px;
+	overflow: hidden;
+}
+.bannerImage img {
+ width: 100%;
+}
+
 .Affiliate {
 	display: flex;
 	justify-content: space-between;

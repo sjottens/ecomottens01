@@ -8,20 +8,23 @@ import { GrFormNextLink } from "react-icons/gr";
 
 const SliderBg = () => {
 
-	const Images = [
+	const ImagesVideo = [
 		'./assets/video-2.mp4'
+	]
+	const Images = [
+		'./assets/internetMarketing01.png'
 	]
 
 	const[curentImageIndex, setCurrentImageIndex] = useState(0);
 
 	//Function to go to next Image
 	const nextImg = () => {
-		setCurrentImageIndex((prevIndex) => (prevIndex + 1) % Images.length)
+		setCurrentImageIndex((prevIndex) => (prevIndex + 1) % ImagesVideo.length)
 	}
 
 	//Function To Go To The Previous Image
 	const prevImg = () => {
-		setCurrentImageIndex((prevIndex) => (prevIndex - 1 + Images.length) % Images.length)
+		setCurrentImageIndex((prevIndex) => (prevIndex - 1 + ImagesVideo.length) % ImagesVideo.length)
 	}
 	//Auto Change the Image in 10sec.
 	useEffect(() => {
@@ -37,8 +40,9 @@ const SliderBg = () => {
 	return (
 		<div className={styles.Slider}>
 			<div>
-				<div>
-					<video autoPlay muted loop src={Images[curentImageIndex]} />
+				<div className={styles.bannerImage}>
+					{/*<video autoPlay muted loop src={ImagesVideo[curentImageIndex]} />*/}
+					<img src={Images} alt={Images} />
 				</div>
 				<div className={styles.Overlay}></div>
 			</div>

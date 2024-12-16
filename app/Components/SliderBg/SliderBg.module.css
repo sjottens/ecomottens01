@@ -8,6 +8,14 @@
 	object-fit: cover;
 }
 
+.bannerImage {
+	max-height: 400px;
+	overflow: hidden;
+}
+.bannerImage img {
+ width: 100%;
+}
+
 .Overlay {
 	position: absolute;
 	top: 0;
@@ -31,9 +39,14 @@
 	font-size: 30px;
 }
 
+.Content h1 {
+	text-shadow: 1px 1px 2px #000;
+}
+
 .Content h5 {
 	font-weight: 900;
 	font-size: 45px;
+	text-shadow: 1px 1px 2px #000;
 }
 
 /* For Controls */
