@@ -60,7 +60,7 @@ export default function Goli() {
 							<div>
 							Goli® Ashwa Gummies are made with a blend of ingredients that support many incredible benefits!<br/><br/>
 
-							They're made with KSM-66® Ashwagandha Root Extract to help reduce stress & promote relaxation; promote sleep quality; support sexual function in women who need a boost; support memory & concentration; and Vitamin D to support a healthy immune system and more!<br/><br/>
+							They&apos;re made with KSM-66® Ashwagandha Root Extract to help reduce stress & promote relaxation; promote sleep quality; support sexual function in women who need a boost; support memory & concentration; and Vitamin D to support a healthy immune system and more!<br/><br/>
 							</div>
 							<div className={styles.BtnElement}>
 								<a href='https://goli.com/pages/goli-ashwagandha?discount_code=g-1587850e6d' target='blank' className={styles.Btn}>SHOP NOW</a>
@@ -87,7 +87,7 @@ export default function Goli() {
 						<div className={styles.contentText}>
 							<h5>Matcha Gummies</h5>
 							<div>
-							New Goli® Gummies, don’t MIND if I do! Goli® Matcha Mind Gummies are a perfect addition to your daily routine with Cognizin® to help support brain health, focus, and attention.<br/><br/>
+							New Goli® Gummies, don&apos;t MIND if I do! Goli® Matcha Mind Gummies are a perfect addition to your daily routine with Cognizin® to help support brain health, focus, and attention.<br/><br/>
 							</div>
 							<div className={styles.BtnElement}>
 								<a href='https://goli.com/pages/matcha-mind?discount_code=g-1587850e6d' target='blank' className={styles.Btn}>SHOP NOW</a>
@@ -95,7 +95,7 @@ export default function Goli() {
 							<div>
 								<br/>
 								Cognitive Gummies<br/>
-								New Goli® Gummies, Don’t <strong>MIND</strong> if I do!
+								New Goli® Gummies, Don&apos;t <strong>MIND</strong> if I do!
 							</div>
 						</div>
 					</div>
@@ -110,7 +110,7 @@ export default function Goli() {
 						<div className={styles.contentText}>
 							<h5>Dreamy Sleep Gummies</h5>
 							<div>
-							New Goli® Gummies, don’t MIND if I do! Goli® Matcha Mind Gummies are a perfect addition to your daily routine with Cognizin® to help support brain health, focus, and attention.<br/><br/>
+							New Goli® Gummies, don&apos;t MIND if I do! Goli® Matcha Mind Gummies are a perfect addition to your daily routine with Cognizin® to help support brain health, focus, and attention.<br/><br/>
 							</div>
 							<div className={styles.BtnElement}>
 								<a href='https://goli.com/pages/goli-sleep?discount_code=g-1587850e6d' target='blank' className={styles.Btn}>SHOP NOW</a>
