@@ -1,8 +1,8 @@
 export const FeaturesData = [
 	{
 			id: 1,
-			FeatureName: "CashPages",
-			FeatureDesc: "Join CashPages And Build Your Faceless AI Instagram Page.  and make $800,- + a day!",
+			FeatureName: "CashPages2.0",
+			FeatureDesc: "Join CashPages2.0 And Build Your Faceless AI Instagram Page.  and make $800,- + a day!",
 			FeatureIcon: "$",
 			FeatureImg: "/assets/cashPages01.png",
 			FeatureUrl: "https://copecart.com/us/products/edd66763/p/rvottens"

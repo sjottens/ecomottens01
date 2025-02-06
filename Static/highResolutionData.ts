@@ -1,8 +1,8 @@
 export const AffiliateData = [
 	{
 			id: 1,
-			AffName: "CashPages",
-			AffDesc: "Join CashPages And Build Your Faceless AI Instagram Page.  and make $800,- + a day!",
+			AffName: "CashPages2.0",
+			AffDesc: "Join CashPages2.0 And Build Your Faceless AI Instagram Page.  and make $800,- + a day!",
 			Img: "/assets/cashPages01.png",
 			Url: "https://copecart.com/us/products/edd66763/p/rvottens",
 	},

@@ -24,20 +24,21 @@ export default function Affiliate() {
 				<div className={styles.container}>
 					<div className={styles.Affiliate}>
 						<div>
-							<img src="/assets/cashpages-logo.png" alt='CashPages Logo' />
+							<img src="/assets/cashpages-logo.png" alt='CashPages2.0 Logo' />
 						</div>
 
 						<div className={styles.Content}>
-						<h6>Join The Community</h6>
+							<h6>Join The Community Today</h6>
 							<h5>Affiliate Marketing</h5>
 							<div>
-								Join CashPages And Build Your Faceless AI Instagram Page.  With Over 52+ Lessons, We are Going To Teach You How To Build, Monetize and Automate Your Own Branded Page.
+								Join <strong className={styles.cashpagesColor}>CashPages2.0</strong> And Building Your Own Simple &quot;<strong className={styles.cashpagesColor}>CashPage</strong>&quot; On Social Media.<br/><br/>
+								With Our Program Being Used In 50+ Different Countries, Endless Success Stories, And A Unique Approach To Online Business <strong>You&apos;re Guaranteed To Succeed With Us!</strong>
 							</div>
-						</div>
-					</div>
-					<div className={styles.Affiliate}>
-						<div className={styles.BtnElement}>
-							<a href='https://bit.ly/cashpages-ottens' target='blank' className={styles.Btn}>JOIN NOW</a>
+							<div className={styles.Affiliate}>
+								<div className={styles.BtnElement}>
+									<a href='https://bit.ly/cashpages-ottens' target='blank' className={styles.Btn}>JOIN TODAY</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

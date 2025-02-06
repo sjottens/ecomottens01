@@ -8,6 +8,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
 	gap: 10px;
+	display: none;
 }
 
 .Footer div img {

@@ -7,9 +7,11 @@ const Content = () => {
 			<h6>Affiliate Marketing</h6>
 			<p>
 				Affiliate marketing is a fantastic opportunity to generate online income.<br/>
-				By promoting products or services of businesses, you can earn a commission for every sale, click, or lead made through your referral links.<br/>
+				By promoting products or services of businesses, you can earn a commission for every sale, click, or lead made through your referral links.<br/><br/>
+
 				It is an excellent way to monetize your website, blog, or social media platforms.<br/>
-				All you need is an online presence to start.<br/>
+				All you need is an online presence to start.<br/><br/>
+				
 				With affiliate marketing, you can turn your digital space into a profitable venture, all while endorsing products you genuinely believe in.<br/>
 				It is a flexible, scalable, and cost-effective way to create a steady stream of income online.<br/>
 				Start your affiliate marketing journey today and unlock the potential of earning while you sleep!

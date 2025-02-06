@@ -15,17 +15,25 @@ import Button from '@/app/Components/Button/Button'
 interface NavLinkProps {
 	LinkText: string,
 	LinkTo: string,
+	LinkCss: string,
 }
 const NavLink:NavLinkProps[] = [
 	{
 		LinkText: "Home",
-		LinkTo: "/"
+		LinkTo: "/",
+		LinkCss: "homeLink"
 	},{
 		LinkText: "Affiliates",
-		LinkTo: "/pages/affiliate"
+		LinkTo: "/pages/affiliate",
+		LinkCss: "affiliatesLink"
+	},{
+		LinkText: "Goli Gummies",
+		LinkTo: "/pages/goligummies",
+		LinkCss: "goliLink"
 	},{
 		LinkText: "Contact",
-		LinkTo: "/pages/contact"
+		LinkTo: "/pages/contact",
+		LinkCss: "contactLink"
 	},
 ]
 
@@ -44,7 +52,7 @@ const Navbar = () => {
 				{
 					NavLink.map((I) => (
 						<div key={I.LinkText} className={styles.NavbarDiv}>
-							<Link href={I.LinkTo}><span>{I.LinkText}</span></Link>
+							<Link href={I.LinkTo} className={I.LinkCss}><span>{I.LinkText}</span></Link>
 						</div>
 					))
 				}

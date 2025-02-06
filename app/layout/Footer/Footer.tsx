@@ -90,7 +90,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className={styles.FooterRow1}>
-				<p>EcomOttens © 2024. lets make 2025 better</p>
+				<p>EcomOttens © 2025. let&apos;s make live better</p>
 			</div>
 		</footer>
 	)
